@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户激活邮件</title>
+</head>
+<body>
+    <h1>亲爱的{{.Name}}:</h1>
+    <a href="10.100.130.10:10010/confirm?active={{.ActiveCode}}">请点击这里激活账户, 如果点不开，请复制下面的链接到浏览器中打开 </a>
+    </br>
+    10.100.130.10:10010/confirm?active={{.ActiveCode}}
+</body>
+</html>
